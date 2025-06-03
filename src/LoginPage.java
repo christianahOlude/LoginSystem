@@ -69,7 +69,7 @@ public class LoginPage implements ActionListener {
                     messageLabel.setForeground(Color.green);
                     messageLabel.setText("You are logged in!");
                     frame.dispose();
-                    WelcomePage welcomePage = new WelcomePage();
+                    WelcomePage welcomePage = new WelcomePage(userId);
                 }
                 else {
                     messageLabel.setForeground(Color.red);
